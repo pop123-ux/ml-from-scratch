@@ -12,6 +12,7 @@ Libraries like scikit-learn are great for getting things done, but they hide the
 |-----------|------|--------|
 | K-Nearest Neighbors | Classification | [`knn/`](knn/) |
 | Linear Regression | Regression | [`linear-regression/`](linear-regression/) |
+| Logistic Regression | Classification (binary + multiclass) | [`logistic-regression/`](logistic-regression/) |
 
 Each folder has its own README with the math, usage, and notes.
 
@@ -32,9 +33,13 @@ ml-from-scratch/
 ├── knn/                 # K-Nearest Neighbors
 │   ├── KNN.py
 │   └── README.md
-└── linear-regression/   # Linear Regression (gradient descent + L1/L2)
-    ├── LinearRegression.py
-    ├── ModelTest.ipynb
+├── linear-regression/   # Linear Regression (gradient descent + L1/L2)
+│   ├── LinearRegression.py
+│   ├── ModelTest.ipynb
+│   └── README.md
+└── logistic-regression/ # Logistic Regression (binary + one-vs-rest multiclass)
+    ├── LogisticRegression.py
+    ├── ModelsTest.ipynb
     └── README.md
 ```
 
